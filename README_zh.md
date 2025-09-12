@@ -32,7 +32,8 @@
 </div>
 
 ## 📢新闻
-- `[2025.8.29]`🔥🔥 我们开源了GUI-Owl和Mobile-Agent-v3在AndroidWorld上的评测代码。
+- `[2025.9.10]`🔥🔥 我们开源了Mobile-Agent-v3在真实手机场景下的代码。查看[代码](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#deploy-mobile-agent-v3-on-your-mobile-device)
+- `[2025.8.29]`🔥 我们开源了GUI-Owl和Mobile-Agent-v3在AndroidWorld上的评测代码。查看[代码](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#evaluation-on-androidworld)
 - `[2025.8.20]`🔥 全新 **GUI-Owl** 和 **Mobile-Agent-v3** 正式发布！技术报告可在此处查看（https://arxiv.org/abs/2508.15144）。模型检查点将在 [GUI-Owl-7B](https://huggingface.co/mPLUG/GUI-Owl-7B) 和 [GUI-Owl-32B](https://huggingface.co/mPLUG/GUI-Owl-32B) 上发布。
   - GUI-Owl 是一个多模态跨平台 GUI 虚拟层模型 (VLM)，具备 GUI 感知、落地和端到端操作能力。
   - Mobile-Agent-v3 是一个基于 GUI-Owl 的跨平台多智能体框架，提供规划、进度管理、反射和内存管理等功能。
