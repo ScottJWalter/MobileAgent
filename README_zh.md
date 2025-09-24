@@ -19,11 +19,17 @@
 <p align="center">
 <a href="https://trendshift.io/repositories/7423" target="_blank"><img src="https://trendshift.io/api/badge/repositories/7423" alt="MobileAgent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
-<!-- 
-<div align="center">
-  <a href="https://www.modelscope.cn/studios/wangjunyang/PC-Agent"><img src="assets/Demo-ModelScope-brightgreen.svg" alt="Demo ModelScope"></a>
-  <a href="https://arxiv.org/abs/?"><img src="https://img.shields.io/badge/Arxiv-2502.14282-b31b1b.svg?logo=arXiv" alt=""></a>
-</div> -->
+
+<p align="center">
+  <a href="https://modelscope.cn/studios/wangjunyang/Mobile-Agent-v3"><img src="assets/Demo-ModelScope-brightgreen.svg" alt="Demo ModelScope"></a>
+</p>
+
+<p align="center">
+  🤗 <a href="https://huggingface.co/mPLUG/GUI-Owl-32B" target="_blank">GUI-Owl-32B</a> | 
+  <img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/GUI-Owl-32B" target="_blank">GUI-Owl-32B</a> ｜
+  🤗 <a href="https://huggingface.co/mPLUG/GUI-Owl-7B" target="_blank">GUI-Owl-7B</a> |
+  <img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/GUI-Owl-7B" target="_blank">GUI-Owl-7B</a>
+</p>
 
 </div>
 <div align="center">
@@ -32,7 +38,10 @@
 </div>
 
 ## 📢新闻
+
+- `[2025.9.24]`🔥🔥 我们在 ModelScope 上发布了基于无影云电脑和云手机的 demo。无需本地部署模型或准备设备，只需输入指令即可体验 Mobile-Agent-v3！[Demo 链接](https://modelscope.cn/studios/wangjunyang/Mobile-Agent-v3)。基于Qwen-3-VL的新版本即将到来。
 - `[2025.9.19]`🔥 GUI-Critic-R1 已被 **第三十九届神经信息处理系统年会 (NeurIPS 2025)** 接收。
+- `[2025.9.17]`🔥 我们发布了最新成果 **UI-S1：通过半在线强化学习推进 GUI 自动化**。[论文](https://www.arxiv.org/abs/2509.11543)、[代码](https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1) 和 [模型](https://huggingface.co/mPLUG/UI-S1-7B) 现已开源。
 - `[2025.9.16]`🔥 我们在 OSWorld 基准测试中开源了 GUI-Owl 和 Mobile-Agent-v3 的代码。请参阅 [代码](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#evaluation-on-osworld)。
 - `[2025.9.10]`🔥 我们开源了 AndroidWorld 基准测试的代码以及 GUI-Owl 和 Mobile-Agent-v3 的真实移动场景代码。请参阅 [AndroidWorld 代码](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#evaluation-on-androidworld) 和 [真实场景代码](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3#deploy-mobile-agent-v3-on-your-mobile-device)。
 - `[2025.8.20]`🔥 全新 **GUI-Owl** 和 **Mobile-Agent-v3** 正式发布！技术报告可在此处查看（https://arxiv.org/abs/2508.15144）。模型检查点将在 [GUI-Owl-7B](https://huggingface.co/mPLUG/GUI-Owl-7B) 和 [GUI-Owl-32B](https://huggingface.co/mPLUG/GUI-Owl-32B) 上发布。
@@ -61,6 +70,7 @@
 </div>
 
 ### GUI-Owl
+
 - 7B以内实现 SOTA 结果。
 - 原生端到端多模态代理，旨在作为 GUI 自动化的基础模型。
 - 在单一策略网络中统一感知、基础、推理、规划和动作执行。
@@ -68,6 +78,7 @@
 - GUI-Owl 可在 Mobile-Agent-v3 中实例化为不同的专用智能体。
 
 ### Mobile-Agent-v3
+
 - 动态任务分解、规划和进度管理。
 - 高度集成的操作空间，降低模型的感知和操作频率。
 - 丰富的异常处理和反射能力，在弹窗、广告等场景下提供更稳定的性能。
@@ -76,11 +87,12 @@
 ## 📝系列工作
 
 - [**Mobile-Agent-v3**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3) (预印本): 多模态、多平台 GUI 代理。[**[论文]**](https://arxiv.org/abs/2508.15144) [**[代码]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3)
+- [**UI-S1**](https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1) (预印本): 通过半在线强化学习推进 GUI 自动化。 [**[Paper]**](https://arxiv.org/abs/2509.11543) [**[Code]**](https://github.com/X-PLUG/MobileAgent/tree/main/UI-S1)
 - [**GUI-Critic-R1**](https://github.com/X-PLUG/MobileAgent/tree/main/GUI-Critic-R1) (NeurIPS 2025): 一种用于术前错误诊断方法的 GUI-Critic。 [**[论文]**](https://arxiv.org/abs/2506.04614) [**[代码]**](https://github.com/X-PLUG/MobileAgent/tree/main/GUI-Critic-R1)
 - [**PC-Agent**](https://github.com/X-PLUG/MobileAgent/tree/main/PC-Agent) (ICLR 2025 研讨会): 用于多模态 PC 操作的多智能体。 [**[论文]**](https://arxiv.org/abs/2502.14282) [**[代码]**](https://github.com/X-PLUG/MobileAgent/tree/main/PC-Agent)
 - [**Mobile-Agent-E**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-E) (预印本): 用于自进化手机操作的多智能体。 [**[论文]**](https://arxiv.org/abs/2501.11733) [**[代码]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-E)
 - [**Mobile-Agent-v2**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v2) (NeurIPS 2024)：用于多模式手机操作的多智能体。 [**[论文]**](https://arxiv.org/abs/2406.01014) [**[代码]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v2)
-- [**Mobile-Agent-v1**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v1) (ICLR 2024 研讨会): 单代理用于多模态手机操作。[**[论文]**](https://arxiv.org/abs/2401.16158) [**[代码]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v1)
+- [**Mobile-Agent-v1**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v1) (ICLR 2024 Workshop): 单代理用于多模态手机操作。[**[论文]**](https://arxiv.org/abs/2401.16158) [**[代码]**](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v1)
 
 ## 📺Demo
 
@@ -96,14 +108,14 @@
     <video src= "https://github.com/user-attachments/assets/a978087a-717b-4c8a-9e50-9223dac019dd"/>
 </div>
 
-### 🌐Web
+### 🌐网页
 
 <div align="left">
     <h3>进入bilibili，查看雷军的视频，然后点赞第一个视频。</h3>
     <video src= "https://github.com/user-attachments/assets/78702309-0985-4103-ae50-0dec6cc8adf2"/>
 </div>
 
-### 📱Phone
+### 📱手机
 
 <div align="left">
     <h3>帮我在携程搜一下济南大明湖景区的详情，包括地址和门票价格等。</h3>
@@ -111,15 +123,24 @@
 </div>
 
 ## ⭐Star History
+
 [![Star History Chart](https://api.star-history.com/svg?repos=X-PLUG/MobileAgent&type=Date)](https://star-history.com/#X-PLUG/MobileAgent&Date)
 
 ## 📑引用
+
 如果您发现 Mobile-Agent 对您的研究和应用有用，请使用此 BibTeX 进行引用：
 ```
 @article{ye2025mobile,
   title={Mobile-Agent-v3: Foundamental Agents for GUI Automation},
   author={Ye, Jiabo and Zhang, Xi and Xu, Haiyang and Liu, Haowei and Wang, Junyang and Zhu, Zhaoqing and Zheng, Ziwei and Gao, Feiyu and Cao, Junjie and Lu, Zhengxi and others},
   journal={arXiv preprint arXiv:2508.15144},
+  year={2025}
+}
+
+@article{lu2025ui,
+  title={UI-S1: Advancing GUI Automation via Semi-online Reinforcement Learning},
+  author={Lu, Zhengxi and Ye, Jiabo and Tang, Fei and Shen, Yongliang and Xu, Haiyang and Zheng, Ziwei and Lu, Weiming and Yan, Ming and Huang, Fei and Xiao, Jun and others},
+  journal={arXiv preprint arXiv:2509.11543},
   year={2025}
 }
 
