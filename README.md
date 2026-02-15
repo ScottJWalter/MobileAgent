@@ -12,7 +12,7 @@
 
 <div align="center">
 <p align="center">
-  <img src="assets/series.png"/>
+  <img src="assets/gui_owl_15_logo.png"/>
 </p>
 </div>
 
@@ -20,11 +20,12 @@
 <a href="https://trendshift.io/repositories/7423" target="_blank"><img src="https://trendshift.io/api/badge/repositories/7423" alt="MobileAgent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
 
-👏 Welcome to try Mobile-Agent-v3 via our **[<img src="./assets/tongyi.png" width="14px" style="display:inline;"> Modelscope online demo](https://modelscope.cn/studios/wangjunyang/Mobile-Agent-v3)** or **[<img src="./assets/aliyun.png" width="14px" style="display:inline;"> Bailian online demo](https://bailian.console.aliyun.com/next?tab=demohouse#/experience/adk-computer-use/pc)**!
+👏 Welcome to try Mobile-Agent-v3.5 via our **[<img src="./assets/tongyi.png" width="14px" style="display:inline;"> Modelscope online demo](https://modelscope.cn/studios/wangjunyang/Mobile-Agent-v3)** or **[<img src="./assets/aliyun.png" width="14px" style="display:inline;"> Bailian online demo](https://bailian.console.aliyun.com/next?tab=demohouse#/experience/adk-computer-use/pc)**!
 
 ❗️We provide the limited-time free Mobile-Agent-v3 API on <img src="./assets/aliyun.png" width="14px" style="display:inline;">Bailian for quick experience. View the [documentation](https://help.aliyun.com/zh/model-studio/ui-agent-api).
 
 <p align="center">
+	🤗 <a href="https://huggingface.co/collections/mPLUG/gui-owl-15" target="_blank">GUI-Owl-1.5 Collection</a> |
 	🤗 <a href="https://huggingface.co/mPLUG/GUI-Owl-32B" target="_blank">GUI-Owl-32B</a> | 
 	<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/GUI-Owl-32B" target="_blank">GUI-Owl-32B</a> ｜
 	🤗 <a href="https://huggingface.co/mPLUG/GUI-Owl-7B" target="_blank">GUI-Owl-7B</a> |
@@ -39,6 +40,7 @@
 
 ## 📢News
 
+- `[2026.2.14]`🔥🔥🔥 **GUI-Owl 1.5** is released, a new family of native multi-platform GUI agent foundation models (2B/4B/8B/32B/235B; Instruct & Thinking). The next-generation native GUI agent model family built on Qwen3-VL, supporting **desktop/mobile/browser** automation and achieving **SOTA results on 20+ GUI benchmarks**, with strong performance on end-to-end tasks, grounding, tool/MCP calling, and long-horizon memory. Model weights are available on [HuggingFace](https://huggingface.co/collections/mPLUG/gui-owl-15). Technical report is avaliable on [Link](https://github.com/junyangwang0410/mobile-agent-papers/blob/main/Mobile_Agent_V3_5.pdf). See the [GUI-Owl 1.5 README](https://github.com/X-PLUG/MobileAgent/tree/main/Mobile-Agent-v3.5) for details.
 - `[2025.11.25]`🔥🔥 The GUI-Owl series models are now available for online inference, thanks to [**Alibaba Cloud Bailian**](https://bailian.console.aliyun.com/?spm=5176.21213303.J_qCOwPWspKEuWcmp8qiZNQ.131.39712f3dOmFAxI&scm=20140722.S_card%40%40%E4%BA%A7%E5%93%81%40%402983180.S_card0.ID_card%40%40%E4%BA%A7%E5%93%81%40%402983180-RL_%E7%99%BE%E7%82%BC-LOC_search%7EUND%7Ecard%7EUND%7Eitem-OR_ser-V_3-P0_0&tab=model#/model-market/detail/gui-plus) for providing computing power support. Please refer to the [Link](https://modelscope.cn/models/iic/GUI-Owl-7B).
 - `[2025.10.30]`🔥 We released **OSWorld-MCP**, which is a benchmark for evaluating Model Context Protocol (MCP) tool invocation capabilities in real-world scenarios. See the [Link](https://github.com/X-PLUG/OSWorld-MCP).
 - `[2025.9.24]`🔥 We've released the demo on ModelScope that's based on Wuying Cloud Desktop and Phone. No need to deploy models locally or prepare devices, just input your instruction to experience Mobile-Agent-v3! [<img src="./assets/tongyi.png" width="14px" style="display:inline;"> ModelScope Demo Link](https://modelscope.cn/studios/wangjunyang/Mobile-Agent-v3) and [<img src="./assets/aliyun.png" width="14px" style="display:inline;"> Bailian Demo Link](https://bailian.console.aliyun.com/next?tab=demohouse#/experience/adk-computer-use/pc). For a limited-time free Mobile-Agent-v3 API, please check the [documentation](https://help.aliyun.com/zh/model-studio/ui-agent-api). The new version based on Qwen-3-VL is coming soon.
